@@ -48,7 +48,7 @@ My pipeline consisted of 5 steps:
 ![alt text][image6]
 
 In order to draw a single line on the left and right lanes, there should be some modification of draw_line()
-* Dividing lines into left and right line by its slope $k=(y2 - y1) / (x2 - x1)$
+* Dividing lines into left and right line by its slope $$ k=(y2 - y1) / (x2 - x1) $$
 * Dropping lines whose slope angle is too small or too large
 * Calculating left lanes and right  average slopes, and draw lines
 
