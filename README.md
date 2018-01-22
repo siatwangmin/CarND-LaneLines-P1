@@ -12,26 +12,45 @@ The goals of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./report_images/solidWhiteRight.jpg "Original Image"
+[image2]: ./report_images/color_masked_image.jpg "Color-Masked Image"
+[image3]: ./report_image/gray.jpg "Gray Image"
+[image4]: ./report_image/edges.jpg "Edge Image"
+[image5]: ./report_image/masked_edges.jpg "Masked_edges Image"
+[image6]: ./report_image/LinesolidWhiteRight.jpg "Final"
 
 ---
 
 ### Reflection
 
-My pipeline consisted of 5 steps
+My pipeline consisted of 5 steps:
+
+![alt text][image1]
+
 * Selecting the lane color by white and yellow color threshold
+
+![alt text][image2]
+
 * Converting the image into gray
+
+![alt text][image3]
+
 * Applying Guassian blur on the gray image and then detecting edges by Canny edges detection
+
+![alt text][image4]
+
 * Selecting the interested region
+
+![alt text][image5]
+
 * Using Hough Transform line deteion
+
+![alt text][image6]
 
 In order to draw a single line on the left and right lanes, there should be some modification of draw_line()
 * Dividing lines into left and right line by its slope $k=(y2 - y1) / (x2 - x1)$
 * Dropping lines whose slope angle is too small or too large
 * Calculating left lanes and right  average slopes, and draw lines
-
-
-![alt text][image1]
 
 
 ### 2. Identify potential shortcomings with current pipeline
