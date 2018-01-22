@@ -14,10 +14,10 @@ The goals of this project are the following:
 
 [image1]: ./report_images/solidWhiteRight.jpg "Original Image"
 [image2]: ./report_images/color_masked_image.jpg "Color-Masked Image"
-[image3]: ./report_image/gray.jpg "Gray Image"
-[image4]: ./report_image/edges.jpg "Edge Image"
-[image5]: ./report_image/masked_edges.jpg "Masked_edges Image"
-[image6]: ./report_image/LinesolidWhiteRight.jpg "Final"
+[image3]: ./report_images/gray.jpg "Gray Image"
+[image4]: ./report_images/edges.jpg "Edge Image"
+[image5]: ./report_images/masked_edges.jpg "Masked_edges Image"
+[image6]: ./report_images/LinesolidWhiteRight.jpg "Final"
 
 ---
 
